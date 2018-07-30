@@ -1,0 +1,82 @@
+body{
+    background: #d3d3d3;
+    color: red;
+}
+.jumbotron{
+  font-family: 'Gaegu', cursive !important;
+  background-image: url('https://images.unsplash.com/photo-1532785450622-09a9fa83193a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc5d893956adcb5c46271e26c4a11008&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white!important;
+
+}
+h1{
+  font-size: 91px !important;
+  font-weight: bold;
+}
+#searching{
+  float:center;
+}
+#searching input[type="text"]{
+  border: 2px solid black;
+  padding:10px;
+  background:#fff;
+  font-weight:bold;
+  color:#000;
+  border-radius: 3px;
+  bottom: 15px;
+  width: 80%;
+  font-size:13px;
+  margin:0;
+  outline:none;
+}
+@media only screen and (min-width: 700px) {
+    #searching input[type="text"]{
+        width: 400px;
+    }
+}
+#search-buttons{
+  padding:5px;
+  overflow:hidden;
+  text-align:center;
+  margin:0
+}
+#search-button-top{
+  background-image:url("http://1.bp.blogspot.com/-AnrB7wz5dD0/VGsgaRby5AI/AAAAAAAAEFQ/NZ9wS7XSqxw/s1600/meta-icon.png");
+  background-repeat:no-repeat;
+  margin:0;
+  outline:none;
+  height:40px;
+  width:40px;
+  background-color:#e74c3c;
+  background-position:13px -243px;
+  border:none;
+  border-radius: 100px;
+  float:center;
+  cursor:pointer
+}
+#search-button-top:hover{
+  -webkit-transition:all .2s ease-in;
+  -moz-transition:all .2s ease-in;-ms-transition:all .2s ease-in;transition:all .2s ease-in;
+  background-color: #c0392b
+}
+#searching {
+  float:center
+}
+a{
+  color: white!important;
+  font-family: 'Press Start 2P', cursive;
+}
+footer{
+  background: black;
+  width: 300px;
+  padding: 15px;
+  font-size: 17px;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+.sosmed{
+  text-align: center;
+}
